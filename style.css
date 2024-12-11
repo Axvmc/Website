@@ -152,10 +152,11 @@ body {
         background-color: #00000000;
         color: #ffffff;
         padding: 10px 0;
+        text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 1px;
       }
   
       /* Logo Gambar */
