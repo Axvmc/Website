@@ -105,12 +105,13 @@ body {
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; /* Ubah dari flex-start ke center untuk menjaga posisi */
     }
 
     .nav {
         width: 100%;
-        justify-content: space-between;
+        justify-content: center; /* Ubah dari space-between ke center */
+        gap: 20px; /* Ubah ukuran gap jika perlu */
     }
 
     .hero {
